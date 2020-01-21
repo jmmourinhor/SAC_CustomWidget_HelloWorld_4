@@ -69,7 +69,9 @@
                 this._tagType = "h2";
             }  else if (value == "h3"){
                 this._tagType = "h3";
-            } 
+            } else {
+                this._tagType = "h1";
+            };
             this.redraw();
         }
 
