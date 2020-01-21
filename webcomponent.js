@@ -64,6 +64,12 @@
             return this._tagType;
             }
 
+        set headingType(value) {
+            if (value == "h2"){
+                this._tagType = "h2";
+            }
+            this.redraw();
+        }
 
         // End - Getters and Setters
 
