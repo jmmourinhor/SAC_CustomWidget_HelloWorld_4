@@ -65,13 +65,7 @@
             }
 
         set headingType(value) {
-            if (value == "h2"){
-                this._tagType = "h2";
-            }  else if (value == "h3"){
-                this._tagType = "h3";
-            } else {
-                this._tagType = "h1";
-            };
+            this._tagType = value;
             this.redraw();
         }
 
