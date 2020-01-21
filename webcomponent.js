@@ -59,6 +59,12 @@
             this.redraw();
         }
 
+
+        get headingType() {
+            return this._tagType;
+            }
+
+
         // End - Getters and Setters
 
         redraw(){
