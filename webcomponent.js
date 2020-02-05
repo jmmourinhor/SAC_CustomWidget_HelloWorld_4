@@ -60,7 +60,6 @@
 
         set widgetText(value) {
             this._tagText = value;
-            this.redraw();
         }
 
 
@@ -70,7 +69,6 @@
 
         set headingType(value) {
             this._tagType = value;
-            this.redraw();
         }
 
         // End - Getters and Setters
